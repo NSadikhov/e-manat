@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: gray;
+}
+.container{
+    width: 300px;
+    margin: 150px auto;
+}
+input{
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+}
+.flex{
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex div{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    flex-basis: 50px;
+    height: 50px;
+    background: darkblue;
+}
+#btnDelete{
+    width: 70px;
+    height: 30px;
+    float: left;
+}
+#btn{
+    display: none;
+    width: 70px;
+    height: 30px;
+    float: right;
+}
