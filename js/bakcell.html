@@ -10,21 +10,26 @@
 </head>
 <body>
     <div class="container">
+        <img src="images/bakcell2.png">
         <input type="text" id="numberPart" value="0" >
+        <button id="btnDelete" onclick="Delete()">SIL</button>
         <div class="flex">
-            <div id="one" onclick="Add(1)">1</div>
-            <div id="two"onclick="Add(2)">2</div>
-            <div id="three" onclick="Add(3)">3</div>
-            <div id="four" onclick="Add(4)">4</div>
-            <div id="five" onclick="Add(5)">5</div>
-            <div id="six" onclick="Add(6)">6</div>
-            <div id="seven" onclick="Add(7)">7</div>
-            <div id="eight" onclick="Add(8)">8</div>
-            <div id="nine" onclick="Add(9)">9</div>
-            <div id="zero" onclick="Add(0)">0</div>
+            <div onclick="Add(1)">1</div>
+            <div onclick="Add(2)">2</div>
+            <div onclick="Add(3)">3</div>
+            <div onclick="Add(4)">4</div>
+            <div onclick="Add(5)">5</div>
+            <div onclick="Add(6)">6</div>
+            <div onclick="Add(7)">7</div>
+            <div onclick="Add(8)">8</div>
+            <div onclick="Add(9)">9</div>
+            <div onclick="Add(0)">0</div>
         </div>
-        <button id="btnDelete" onclick="Delete">SIL</button>
-        <button id="btn" onclick="document.location.href='last-part.html'">IRELI</button>
+        <div class="flex-button">
+        <button onclick="document.location.href='index.html'">GERI</button>
+        <button id="btnClear" onclick="Clear()">TEMIZLE</button>
+        <button id="btnGo" onclick="document.location.href='pay-part.html'">IRELI</button>
+        </div>
     </div>
 </body>
 </html>

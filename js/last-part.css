@@ -7,12 +7,28 @@ body{
 }
 .container{
     text-align: center;
-    
-    height: 500px;
-    line-height: 500px;
-    margin: 150px auto;
+    width: 600px;
+    margin: 250px auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    background: orange;
 }
 h1{
-    font-size: 100px;
+    font-size: 30px;
+    text-align: center;
     color: white;
+}
+button{
+    font-size: 20px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    color: darkblue;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
 }
